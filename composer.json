@@ -1,5 +1,5 @@
 {
-  "name": "gmo/salesforce-rest-api",
+  "name": "kalamuna/salesforce-rest-api",
   "license": "MIT",
   "require": {
     "php": ">=5.3"

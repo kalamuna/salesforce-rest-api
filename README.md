@@ -3,10 +3,16 @@ A simple PHP client for the Salesforce REST API
 
 ## Installation
 
-Install with composer:
+Add into composer.json:
 ```
-composer config repositories.salesforce-rest-api vcs https://github.com/gmo/salesforce-rest-api
-composer require "gmo/salesforce-rest-api:^1.0"
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/kalamuna/salesforce-rest-api"
+    }],
+
+"require" : {
+  "kalamuna/salesforce-rest-api": "dev-master"
+}
 ```
 
 ## Usage
@@ -37,7 +43,7 @@ try {
 	foreach($contactQueryResults as $queryResult) {
 		print_r($queryResult);  // The output of a single record from the query API JSON, converted to associative array
 	}
-	
+
     $contactQueryResults2 = $salesforce->query("SELECT AccountId, LastName
         FROM Contact
         WHERE FirstName = :firstName",
