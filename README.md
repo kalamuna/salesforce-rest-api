@@ -5,10 +5,10 @@ A simple PHP client for the Salesforce REST API
 
 Add into composer.json:
 ```
-    "repositories": [{
-        "type": "vcs",
-        "url": "https://github.com/kalamuna/salesforce-rest-api"
-    }],
+"repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/kalamuna/salesforce-rest-api"
+}],
 
 "require" : {
   "kalamuna/salesforce-rest-api": "dev-master"

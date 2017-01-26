@@ -2,7 +2,8 @@
   "name": "kalamuna/salesforce-rest-api",
   "license": "MIT",
   "require": {
-    "php": ">=5.3"
+    "php": ">=5.3",
+    "guzzle/guzzle": "3.9.2"
   },
   "autoload": {
     "psr-4": {
